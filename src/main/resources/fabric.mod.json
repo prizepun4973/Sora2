@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sora2",
+  "version": "${version}",
+  "name": "sora2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sora2/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.silentmoli.sora2.Sora2"
+    ]
+  },
+  "mixins": [
+    "sora2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.silentmoli.sora2.asm",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinClient",
+    "MixinKeyboard"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
