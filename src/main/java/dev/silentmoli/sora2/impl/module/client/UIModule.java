@@ -16,13 +16,13 @@ public class UIModule extends Module {
 
     @Override
     public void onActivate() {
-        Sora2.mc.execute(() -> Sora2.mc.setScreen(new ClickUI()));
+        mc.execute(() -> mc.setScreen(new ClickUI()));
     }
 
     @Override
     public void onDeactivate() {
         if (mc.currentScreen instanceof ClickUI)
-            Sora2.mc.execute(() -> Sora2.mc.setScreen(null));
+            mc.execute(() -> mc.setScreen(null));
     }
 
     @Override

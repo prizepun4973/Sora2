@@ -37,9 +37,8 @@ public class Modules {
 
     @EventHandler
     private void onKey(KeyEvent event) {
-        if (!modules.isEmpty())
-            for (Module module : modules) {
-                module.onKey(event);
-            }
+        for (Module module : modules) {
+            module.onKey(event);
+        }
     }
 }
