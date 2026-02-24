@@ -1,6 +1,7 @@
 package dev.silentmoli.sora2;
 
 import dev.silentmoli.sora2.api.manager.Modules;
+import dev.silentmoli.sora2.impl.module.client.UIModule;
 import meteordevelopment.orbit.EventBus;
 import meteordevelopment.orbit.IEventBus;
 import net.fabricmc.api.ClientModInitializer;
@@ -23,5 +24,7 @@ public class Sora2 implements ClientModInitializer {
         EVENT_BUS.subscribe(this);
 
         Modules.init();
+
+        Registry.init();
     }
 }

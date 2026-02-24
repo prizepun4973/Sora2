@@ -1,4 +1,4 @@
-package dev.silentmoli.sora2.api.util.client;
+package dev.silentmoli.sora2.api.render;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
